@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    position: absolute;
+right: 20px;
+top:10px;
+
+}
+nav a{
+color: #f4a261;
+margin: 5px;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.navbarD{
+    background-color: rgb(38, 70, 83);
+    height: 55px;
+width: 100%;
+}
+
+header .headerDiv h3{
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 170.59px;
+}
+.headerDiv{
+    display: flex;
+    position: absolute;
+    bottom: 675px;
+}
+.headerDiv img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 9.6px;
+    left: 15px;
+    
+    }
+
+
+     main{
+        width:100%;
+        height: auto;
+        background-color: rgb(38, 70, 83);
+        position: relative;
+        top: 0px;
+        padding-top: 50px;
+
+    }
+    .Jumbo{
+        position: relative;
+    }
+    .JumboTitle{
+        text-align: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        position: absolute;
+        left: 525px;
+        bottom: 300px;
+    }
+
+    .header1img{
+        height: 300px;
+        margin-left: 550px;
+position: relative;
+top: 5px;
+    }
+    .jumbotron-text{
+        border-bottom: 5px solid #f4a261 ;
+        width:525px ;
+position: absolute;
+top: 70px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .mini{
+        position: absolute;
+        top: 175px;
+        left: 10px;
+font-size: large;    
+    background-color: rgb(38, 70, 83);
+        border: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+    .mini:hover{
+        cursor:pointer;
+    }
+    
+    .mini i{
+        color: white;
+    }
+
+
+    .Map{
+        text-align: center;
+
+    }
+    .MapText{
+        color:#f4a261;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 50px;
+        
+    }
+    .FooterHolder{
+        background-color: rgb(38, 70, 83);width: auto; height: auto;
+        text-align: center;
+    }
+    .Social{
+        display: flex;
+justify-content: center;
+    }
+    .socialIcon{
+        padding: 5px;
+
+    }
+
+   
+    .FormHolder{
+    
+        background-color: rgb(38, 70, 83);
+        width: 500px;
+    
+        height: 650px;
+        margin: auto;
+        border-radius: 20px;
+        margin-top: 1%;
+    }
+    .Heading{
+        font-family: Verdana, Geneva, Tahoma, sans-serif ;
+          text-align: center;
+    
+    }
+    label{
+        color: white;
+
+    }
+    input,select{
+        color: white;
+        margin-top: 20px;
+        text-align: left;
+        max-width: 100px;
+        border-radius: 5px;
+        border: none;
+    }
+    hr{
+        height: 5px;
+        background-color: black;
+        border: none;
+        margin-top: 5px;
+    }
+    ::placeholder{
+        color: gray;
+        opacity: 0.5;
+        text-align: center;
+    }
+    
+    .Acc{
+        text-align: center;
+    }
+    
+    .RadioCon{
+    display: flex;
+    justify-content: center;
+    }
+    .Prem, .Nor, .Other{
+        text-align: center;
+        margin: 10px;
+    }
+    
+    .SentHead{
+        text-align: center;
+    }
+    .EntryK{
+        position: relative;
+    
+        left: 720px;
+        top: 40px;
+    }
+    #h{
+        background-color: rgb(159, 231, 174);
+    }
